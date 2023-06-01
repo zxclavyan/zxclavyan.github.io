@@ -1,0 +1,104 @@
+
+body{
+    background: linear-gradient(90deg, #e1dfe6 0%, #8fbbcf 100%);
+}
+p{
+    color: rgb(0, 0, 0);
+}
+.nav-link{
+    color: aquamarine;
+}
+
+.navbar-nav .nav-link.active{
+    color: rgb(255, 0, 0);
+}
+
+.navbar-brand img{
+width: 40px;
+}
+.navbar-toggler{
+    background-color: rgb(92, 93, 94);
+}
+.sidebar{
+    color: rgba(7, 1, 1, 0.884);
+    background-color: #9994e0;
+
+}
+.link{
+    text-decoration: none;
+    color: #9cfca9;
+    
+}
+.link2{
+    text-decoration: none;
+    color: #9cfca9;
+}
+
+.link3{
+text-decoration: none;
+color: #9cfca9;
+}
+.card{
+    background: linear-gradient(180deg, #ffffff 0%, #000000 100%);
+    color: rgb(255, 255, 255);
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
+.slide-text,
+.footer-text{
+    color: rgb(37, 37, 37);
+    margin: auto auto;
+}
+footer,
+.btn-outline-primary{
+    background: linear-gradient(90deg, #e1dfe6 0%, #8fbbcf 100%);
+    
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strelka{
+    animation: poebat 2s ease 0s infinite normal forwards;
+}
+    @keyframes poebat {
+        0% {
+            transform: scale3d(1, 1, 1);
+        }
+    
+        30% {
+            transform: scale3d(1.25, 0.75, 1);
+        }
+    
+        40% {
+            transform: scale3d(0.75, 1.25, 1);
+        }
+    
+        50% {
+            transform: scale3d(1.15, 0.85, 1);
+        }
+    
+        65% {
+            transform: scale3d(0.95, 1.05, 1);
+        }
+    
+        75% {
+            transform: scale3d(1.05, 0.95, 1);
+        }
+    
+        100% {
+            transform: scale3d(1, 1, 1);
+        }
+    }
+@media(max-width: 755px){
+    .carousel-indicators{
+        display: none;
+        
+    }
+}
